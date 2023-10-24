@@ -1,0 +1,32 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "爬虫脚本汇总",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MyNetdisk/Spider.git"
+  },
+  "keywords": [
+    "爬虫"
+  ],
+  "author": "MyNetdisk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MyNetdisk/Spider/issues"
+  },
+  "homepage": "https://github.com/MyNetdisk/Spider#readme",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
